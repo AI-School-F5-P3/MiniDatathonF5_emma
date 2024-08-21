@@ -15,3 +15,4 @@ def calc_missing(df):
         total_count = df.shape[0]
         null_percent = (null_count / total_count) * 100
         print(f'{col} {null_count} / {total_count}= {null_percent:.2f} %')
+        
